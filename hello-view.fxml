@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.javafxdemo1.HelloController" fx:id="MainPane">
+
+    <VBox>
+        <Label text = "Im lakshit" />
+        <Button text="Hello Q1" fx:id="Q1b" onAction="#forQ1" />
+        <Button text="Hello Q2" fx:id="Q2b" onAction="#forQ2" />
+    </VBox>
+
+</BorderPane>
